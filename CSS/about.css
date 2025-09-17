@@ -1,0 +1,67 @@
+.about-section {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+  text-align: left;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  /* font-size: ; */
+}
+
+/* Top image */
+.about-image {
+  width: 100%;
+  height: 500px;
+  background: url("https://img.freepik.com/free-photo/preschool-art-class_23-2151951195.jpg?semt=ais_incoming&w=740&q=80")
+    center/cover no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Bottom content */
+.about-content {
+  padding: 40px 30px;
+  background: #fff;
+  /* font-size: 1.5em; */
+}
+
+.about-content h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #ffa500;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  margin: 25px 0 10px;
+  margin-bottom: 2em;
+  color: #6a5acd;
+}
+
+.about-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 18px;
+  color: #444;
+  text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .about-section {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .about-image {
+    height: 200px;
+  }
+  .about-content h2 {
+    font-size: 26px;
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 30px;
+  }
+}
