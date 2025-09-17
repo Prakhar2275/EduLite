@@ -882,6 +882,7 @@ body {
   text-align: left;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease;
+  /* margin-right: 1em; */
 }
 
 .testimonial-card:hover {
@@ -919,4 +920,19 @@ body {
 .staff-details span {
   font-size: 13px;
   color: #777;
+}
+
+@media screen and (max-width: 400px) {
+  .testimonial-container {
+    display: flex;
+    flex-direction: column; /* cards ek ke neeche ek */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    /* padding: 15px; */
+  }
+
+  .testimonial-section {
+    padding: 2em !important;
+  }
 }
