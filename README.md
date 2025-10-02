@@ -25,9 +25,7 @@ A minimal, elegant, and fully responsive static website template built for schoo
 
 ## 📸 Live Demo
 
-> 🔗 Coming Soon (or insert your GitHub Pages / Netlify / Vercel demo link here)
+> 🔗 https://sarvsamagraedu.netlify.app
 
 ---
-
-## 📁 Folder Structure
 
