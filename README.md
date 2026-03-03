@@ -25,7 +25,7 @@ A minimal, elegant, and fully responsive static website template built for schoo
 
 ## 📸 Live Demo
 
-> 🔗 https://sarvsamagraedu.netlify.app
+> 🔗 https://edulite123.netlify.app/
 
 ---
 
